@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+
+body {
+    background-color:rgb(78, 110, 255);
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #fff;
+    
+} 
+
+main {
+    text-align: center;
+    height: 80vh;
+    border: 1px solid #fff;
+    margin: 50px 0;
+}
+
+header h1 {
+    font-style: italic;
+    padding: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.box {
+    height: 25vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 0 260px;
+}
+button, a {
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px 20px;
+    color: white;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
